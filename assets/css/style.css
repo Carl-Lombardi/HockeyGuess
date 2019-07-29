@@ -1,25 +1,42 @@
-html, body {
-	margin: 0;
-	padding: 0;
-  background-color: red;
-	  font-family: Arial, Helvetica, sans-serif;
-	    }
+body {
+    margin: 0;
+    background-color: black
+ }
 
-#bar{
- height:50px;
- margin:auto;
- margin-top:50px;
- color:#FFF;
- font-size:36px;
- width:800px;
- border-bottom:solid white 1px;
-}
+  p, h3{
+	line-height: 1.4;
+	font-size: 24px;
+	font-family: 'Times New Roman', Times, serif;
+	color: white;
+  }
 
-#Game{
- margin:auto;	
- width:800px;
- height:400px;
- position:relative;
- overflow:hidden;
- background-color: red;
-}
+  .container {
+    max-width: 960px;
+	margin: auto;
+	padding: 40px;
+    position: relative;
+    background: black;
+    margin-bottom: 10px;
+  }
+
+  .play {
+	max-width: 960px;
+	margin: auto;
+	padding: 30px;
+    border: 1px solid red;
+    position: relative;
+    background: black;
+    margin-bottom: 10px;
+
+  }
+
+  .game {
+	max-width: 960px;
+	margin: auto;
+	padding: 30px;
+    border: 1px solid red;
+    position: relative;
+    background: black;
+    margin-bottom: 10px;
+
+  }
